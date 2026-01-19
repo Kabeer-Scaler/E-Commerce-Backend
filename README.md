@@ -82,7 +82,7 @@ razorpay:
 
 Make sure MongoDB is running locally:
 
-mongod
+mongodb
 
 4️⃣ Run Application
 mvn spring-boot:run
