@@ -95,37 +95,43 @@ http://localhost:8080
 # 📮 API Endpoints
 ## Product APIs
 Method	Endpoint	Description
-POST	/api/products	Create product
 
-GET	/api/products	Get all products
 
-GET	/api/products/search?q=laptop	Search products
+POST	/api/products - Create product
+
+GET	/api/products -	Get all products
+
+GET	/api/products/search?q=laptop -	Search products
 
 ## Cart APIs
 Method	Endpoint	Description
-POST	/api/cart/add	Add item to cart
 
-GET	/api/cart/{userId}	View cart
+POST	/api/cart/add -	Add item to cart
 
-DELETE	/api/cart/{userId}/clear	Clear cart
+GET	/api/cart/{userId} -	View cart
+
+DELETE	/api/cart/{userId}/clear -	Clear cart
 
 ## Order APIs
 Method	Endpoint	Description
-POST	/api/orders	Create order
 
-GET	/api/orders/{orderId}	Get order
+POST	/api/orders -	Create order
 
-GET	/api/orders/user/{userId}	Order history
+GET	/api/orders/{orderId} -	Get order
 
-POST	/api/orders/{orderId}/cancel	Cancel order
+GET	/api/orders/user/{userId} -	Order history
+
+POST	/api/orders/{orderId}/cancel -	Cancel order
 
 ## Payment APIs
 Method	Endpoint	Description
-POST	/api/payments/create	Create Razorpay payment
+
+POST	/api/payments/create -	Create Razorpay payment
 
 ## Webhook
 Method	Endpoint	Description
-POST	/api/webhooks/payment	Payment callback handler
+
+POST	/api/webhooks/payment - Payment callback handler
 
 For local testing, webhook is simulated using Postman.
 
@@ -175,7 +181,4 @@ DTO-based API contracts
 
 GitHub project management
 
-## 📮 Postman Collection
-
-A complete Postman collection for testing all APIs is available in the repository:
 
